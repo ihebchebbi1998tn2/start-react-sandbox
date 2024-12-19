@@ -17,7 +17,7 @@ export const ListItem = React.forwardRef<
           )}
           {...props}
         >
-          <div className="text-base font-medium leading-none">{title}</div>
+          <div className="text-base font-medium leading-none text-left">{title}</div>
           <p className="text-base leading-snug text-muted-foreground text-left">
             {children}
           </p>
