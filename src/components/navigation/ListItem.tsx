@@ -12,7 +12,7 @@ export const ListItem = React.forwardRef<
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 p-3 leading-none no-underline outline-none transition-colors hover:text-red-400 text-left",
+            "block select-none space-y-1 p-3 leading-none no-underline outline-none text-black",
             className
           )}
           {...props}

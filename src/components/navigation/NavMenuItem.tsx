@@ -14,11 +14,11 @@ interface NavMenuItemProps {
 const NavMenuItem = ({ title, image, children }: NavMenuItemProps) => {
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger className="text-white text-[16px] lg:text-[21px] hover:text-red-400 transition-colors bg-transparent data-[state=open]:bg-transparent">
+      <NavigationMenuTrigger className="text-white text-[16px] lg:text-[21px] bg-transparent data-[state=open]:bg-transparent">
         {title}
       </NavigationMenuTrigger>
       <NavigationMenuContent>
-        <div className="w-screen max-w-screen-2xl mx-auto grid gap-3 p-6 md:grid-cols-[1fr_400px]">
+        <div className="w-screen max-w-screen-2xl mx-auto grid gap-3 p-6 md:grid-cols-[1fr_400px] bg-white">
           <div className="grid gap-3">
             {children}
           </div>
